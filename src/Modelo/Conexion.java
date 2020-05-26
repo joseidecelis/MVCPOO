@@ -13,7 +13,7 @@ public class Conexion
     private final String user ="root";
     private final String password ="pepodc2020";
     private final String url="jdbc:mysql://localhost/" + base;
-    private Connection con =null;
+    private Connection con = null;
     
     public Connection getConexion()
     {
